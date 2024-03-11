@@ -1,0 +1,9 @@
+<header>
+  <a href=""><img [src]="logoIcon" alt=""></a>
+  
+  <nav>
+    @for (menuItem of menuItemsList; track $index) {
+      <a href="">{{ menuItem }}</a>
+    }
+  </nav>
+</header>
