@@ -1,0 +1,20 @@
+<section>
+  <div class="catchword">
+    <div class="decor_line"></div>
+    Testimonial
+  </div>
+  <h3>Student Testimonial</h3>
+  <div class="testimonial_list">
+    @for (testimonial of testimonialList; track testimonial.id) {
+      <div class="testimonial_item">
+        <h4>{{ testimonial.author }}</h4>
+        <p class="spec"> {{ testimonial.spec }}</p>
+        <div class="rating">
+          <img [src]="starIcon" alt="">
+          <h5>{{ testimonial.rating}}</h5>
+        </div>
+        <p class="testimonial_text"> {{ testimonial.text}}</p>
+      </div>
+    }
+  </div>
+</section>

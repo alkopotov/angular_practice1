@@ -61,5 +61,49 @@ p {
   line-height: 36px;
   letter-spacing: 0.02em;
   text-align: left;
+}
 
+.key_facts {
+  width: 100%;
+  max-width: 1136px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.key_fact_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 60px;
+}
+
+h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: Plus Jakarta Sans;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+span {
+  color:#A4074D;
+}
+
+.fact_description {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.banner_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.description_text {
+  margin-bottom: 16px;
 }

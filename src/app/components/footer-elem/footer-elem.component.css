@@ -1,0 +1,43 @@
+footer {
+  background: #1A2434;
+  color: white;
+  padding: 80px 0;
+}
+
+section {
+  width: 100%;
+  max-width: 1136px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 3fr 2fr 2fr auto;
+  gap: 24px
+}
+
+h3 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 37.8px;
+}
+
+.header {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+p, a {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}

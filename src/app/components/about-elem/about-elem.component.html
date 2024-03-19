@@ -1,5 +1,5 @@
 
-<section>
+<section class="about_banner">
   <img [src]="aboutImage" alt="">
   <div class="banner_info">
     <div class="catchword">
@@ -8,14 +8,22 @@
     </div>
     <h1>E-Learning Platform for Digital Skills</h1>
     <div class="description">
-      <p>Empower yourself with the knowledge and skills gained through online education! The key to your future! Empower yourself with the knowledge and skills gained through online education! The key to your future!</p>
+      <p class="description_text">Empower yourself with the knowledge and skills gained through online education! The key to your future! Empower yourself with the knowledge and skills gained through online education! The key to your future!</p>
 
       <button>
         Learn more
         <img [src]="arrowRight" alt="">
       </button>
 
-    </div>
-    
+    </div>    
   </div>
 </section>
+<div class="key_facts">
+  @for (keyFact of keyFacts; track $index) {
+    <div class="key_fact_item">
+      <h2>{{ keyFact.figure }}<span>{{ keyFact.unit }}</span></h2>
+      <p class="fact_description">{{ keyFact.description }}</p>
+
+    </div>
+  }
+</div>

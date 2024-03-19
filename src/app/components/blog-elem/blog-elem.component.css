@@ -1,0 +1,114 @@
+.decor_line{
+  width: 64px;
+  border-bottom: 4px solid #A4074D;
+}
+
+.catchword {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #1A2434;
+}
+
+section {
+  width: 100%;
+  max-width: 1136px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  padding-bottom: 80px;
+}
+
+h3 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 80px;
+  color: #1A2434;
+}
+
+.blog_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.blog_item {
+  padding: 24px;
+  border: 1px solid #EBEFF6;
+  border-radius: 32px;
+}
+
+.author_date {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.author, .date {
+  display: flex;
+  gap: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Plus Jakarta Sans', sans-serif  ;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 24px;
+  color: #1A2434;
+}
+
+.read_more {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+button {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  align-items: center;
+  background: #A4074D;
+  color: white;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding: 24px 94px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  margin-top: 80px;
+}

@@ -1,0 +1,35 @@
+<section>
+  <div class="catchword">
+    <div class="decor_line"></div>
+    Blog
+  </div>
+  <h3>Browse articles</h3>
+
+  <div class="blog_list">
+    @for (blog of blogList; track blog.id) {
+      <div class="blog_item">
+        <img [src]="blog.imageSrc" alt="">
+        <div class="author_date">
+          <div class="author">
+            <img [src]="userIcon" alt="">
+            <p>{{ blog.author}}</p>
+          </div>
+          <div class="date">
+            <img [src]="calendarIcon" alt="">
+            <p>{{ blog.date}}</p>
+          </div>
+        </div>
+        <h2> {{ blog.title}}</h2>
+
+        <div class="read_more">Read more
+          <img [src]="arrowBlack" alt="">
+        </div>
+      </div>
+    }
+
+
+  </div>
+  <button> View all 
+    <img [src]="arrowRight" alt="">
+  </button>
+</section>
